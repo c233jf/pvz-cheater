@@ -183,6 +183,11 @@ Cheater::Cheater(QWidget* parent) : QWidget(parent) {
   InitTimer();
 }
 
+void Cheater::closeEvent(QCloseEvent* event) {
+  OnCancelButtonClick();
+  QTimer::singleShot(200, this, [&]() { event->accept(); });
+}
+
 void Cheater::SetupUI() {
   setWindowTitle(QString("PVZ - Cheater"));
   setMinimumSize(300, 200);

@@ -8,6 +8,7 @@
 #include <Windows.h>
 
 #include <QCheckBox>
+#include <QCloseEvent>
 #include <QGridLayout>
 #include <QGroupBox>
 #include <QHBoxLayout>
@@ -55,6 +56,9 @@ class Cheater : public QWidget {
 
  public:
   explicit Cheater(QWidget* parent = nullptr);
+
+ protected:
+  void closeEvent(QCloseEvent*) override;
 
  private:
   // 不需要使用智能指针，详细请看 Qt 内存管理。
