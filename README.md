@@ -1,6 +1,13 @@
 # 植物大战僵尸作弊器
 
-此项目是我在学习逆向的过程中用来练手的，你可以从 [Release]() 中下载使用。
+此项目是我在学习逆向的过程中用来练手的，你可以从 [Release](https://github.com/c233jf/pvz-cheater/releases) 中下载使用。
+
+> [!NOTE]
+> 此作弊器只适用于 [此版本](https://store.steampowered.com/app/3590/Plants_vs_Zombies_GOTY_Edition)。
+
+## 功能
+
+![运行界面](./ui.jpg)
 
 ## 自己构建
 
