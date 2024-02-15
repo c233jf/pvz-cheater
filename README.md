@@ -12,6 +12,8 @@
 - [ ] 优化报警告的代码
 - [ ] 增加打开游戏进程按钮
 - [ ] 自动拾取金币、阳光
+- [ ] 增加 version bump 以及 Release workflow
+- [ ] 参考 JS 项目增加 Git Hooks
 
 ## References
 
