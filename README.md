@@ -6,6 +6,13 @@
 
 当然，你也可以自行构建。按照 [VSCode 文档](https://code.visualstudio.com/docs/cpp/cmake-linux) 所写配置好环境，然后运行构建即可。
 
+## TODO
+
+- [ ] 优化错误处理
+- [ ] 优化报警告的代码
+- [ ] 增加打开游戏进程按钮
+- [ ] 自动拾取金币、阳光
+
 ## References
 
 - [视频](https://www.bilibili.com/video/BV1KM4y1F7tR?p=131&vd_source=4f7b160f9f2a17e79bd4ab2785a8d769)
@@ -18,10 +25,3 @@
 - [植物大战僵尸修改器实验报告](https://github.com/chiawei-liu/PVZModifier/blob/master/Report.md)
 - [通过 DLL 注入魔改植物大战僵尸](https://bbs.kanxue.com/thread-264356.htm)
 - [x64dbg 入门之工具使用实战](https://bbs.kanxue.com/thread-260156.htm)
-
-## TODO
-
-- [ ] 优化错误处理
-- [ ] 优化报警告的代码
-- [ ] 增加打开游戏进程按钮
-- [ ] 自动拾取金币、阳光
